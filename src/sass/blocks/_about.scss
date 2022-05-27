@@ -1,0 +1,95 @@
+.about {
+    padding-top: 120px;
+    &-text {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        &__subtitle {
+            font-family: 'Gilroy';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #FF0000;
+        }
+        &__title {
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 60px;
+            color: #0A0A0B;
+            max-width: 530px;
+            margin-bottom: 0;
+        }
+    }
+    &-wrap {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        
+        &__text {
+            padding-top: 60px;
+            p {
+                max-width: 530px;
+                font-family: 'Gilroy';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                color: #474748;
+            }
+        }
+        &__list {
+            font-family: 'Gilroy';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #474748;
+            padding-left: 0;
+            li {
+                font-family: 'Gilroy';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                background: url('../icons/about/check.png') left no-repeat;
+                list-style-type: none;
+                padding-left: 32px;
+                margin-bottom: 16px;
+                color: #474748;
+            }
+        }
+            &__title {
+                font-family: 'Gilroy';
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 30px;
+                color: #0A0A0B;
+            }
+            &__cards {
+                margin-top: 37px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 605px;
+            }
+            &__card {
+                background: #f3f4f7;
+                border: 1px solid #cecfd7;
+                box-sizing: border-box;
+                border-radius: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 288px;
+                height: 136px;
+                margin-bottom: 30px;
+                transition: .5s all;
+                cursor: pointer;
+                &:hover {
+                    background: #FFFFFF;
+                    border: 1px solid transparent;
+                    box-shadow: 0px 4px 39px rgba(6, 41, 56, 0.06);
+                  }
+            }
+    }
+}

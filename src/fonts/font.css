@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'RF Dewi Expanded';
+    src: url('RFDewiExpanded-Black.eot');
+    src: local('RF Dewi Expanded Black'), local('RFDewiExpanded-Black'),
+        url('RFDewiExpanded-Black.eot?#iefix') format('embedded-opentype'),
+        url('RFDewiExpanded-Black.woff2') format('woff2'),
+        url('RFDewiExpanded-Black.woff') format('woff'),
+        url('RFDewiExpanded-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RF Dewi Expanded';
+    src: url('RFDewiExpanded-BoldItalic.eot');
+    src: local('RF Dewi Expanded Bold Italic'), local('RFDewiExpanded-BoldItalic'),
+        url('RFDewiExpanded-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('RFDewiExpanded-BoldItalic.woff2') format('woff2'),
+        url('RFDewiExpanded-BoldItalic.woff') format('woff'),
+        url('RFDewiExpanded-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'RF Dewi Expanded';
+    src: url('RFDewiExpanded-Thin.eot');
+    src: local('RF Dewi Expanded Thin'), local('RFDewiExpanded-Thin'),
+        url('RFDewiExpanded-Thin.eot?#iefix') format('embedded-opentype'),
+        url('RFDewiExpanded-Thin.woff2') format('woff2'),
+        url('RFDewiExpanded-Thin.woff') format('woff'),
+        url('RFDewiExpanded-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RF Dewi Expanded';
+    src: url('RFDewiExpanded-Bold.eot');
+    src: local('RF Dewi Expanded Bold'), local('RFDewiExpanded-Bold'),
+        url('RFDewiExpanded-Bold.eot?#iefix') format('embedded-opentype'),
+        url('RFDewiExpanded-Bold.woff2') format('woff2'),
+        url('RFDewiExpanded-Bold.woff') format('woff'),
+        url('RFDewiExpanded-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Regular.woff2') format('woff2'),
+        url('Gilroy-Regular.woff') format('woff'),
+        url('Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Black.eot');
+    src: local('Gilroy Black'), local('Gilroy-Black'),
+        url('Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Black.woff2') format('woff2'),
+        url('Gilroy-Black.woff') format('woff'),
+        url('Gilroy-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Light.eot');
+    src: local('Gilroy Light'), local('Gilroy-Light'),
+        url('Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Light.woff2') format('woff2'),
+        url('Gilroy-Light.woff') format('woff'),
+        url('Gilroy-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Semibold.eot');
+    src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+        url('Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Semibold.woff2') format('woff2'),
+        url('Gilroy-Semibold.woff') format('woff'),
+        url('Gilroy-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Medium.eot');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Medium.woff2') format('woff2'),
+        url('Gilroy-Medium.woff') format('woff'),
+        url('Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

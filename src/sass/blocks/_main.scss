@@ -1,0 +1,77 @@
+.main {
+    height: 900px;
+    background-image: url(../img/main_bg.jpg);
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    
+    &-text {
+        padding-top: 200px;
+        position: relative;
+    }
+     &__bg {
+        position: absolute;
+        top: 150px;
+        left: -14px;
+        font-family: 'RF Dewi Expanded';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 90px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.3;
+        z-index: 0;
+     }
+
+     &-title {
+        position: relative;
+        max-width: 695px;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 70px;
+        letter-spacing: 0.02em;
+        color: #0A0A0B;
+        z-index: 1;
+     }
+     &-successes {
+         position: relative;
+         margin-top: 45px;
+         display: flex;
+         align-items: flex-start;
+         z-index: 10;
+     }
+     &-success {
+        max-width: 138px;
+        margin-right: 85px;
+        margin-bottom: 115px;
+        &__num {
+            font-style: italic;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 130%;
+            margin-bottom: 4px;
+            background: linear-gradient(284.26deg, #FF0000 -80.02%, #FF7A00 113.66%, #FFB300 156.83%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        &__sub {
+            font-family: 'Gilroy';
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 21px;
+            letter-spacing: 0.04em;
+            color: #000000;
+        }
+     }
+     
+     
+     &-cir {
+        position: absolute;
+        bottom: 0px;
+        left: -50px;
+        z-index: 0;
+     } 
+}

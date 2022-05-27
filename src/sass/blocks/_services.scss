@@ -1,0 +1,112 @@
+.services {
+    padding: 120px 0;
+    height: 815px;
+    background: #F3F4F7;
+    position: relative;
+    overflow: hidden;
+    &-bg {
+        position: absolute;
+        top: 22px;
+
+
+    }
+    &-text {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 6;
+        &__subtitle {
+            font-family: 'Gilroy';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #FF0000;
+        }
+       
+        &__title {
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 60px;
+            text-align: center;
+            color: #0A0A0B;
+            margin-bottom: 0;
+        }
+        &__line {
+            width: 243px;
+            height: 1px;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            margin-top: 30px;
+        }
+    }
+    &-descr {
+        margin-top: 30px;
+        text-align: center;
+        &__parg {
+            font-family: 'Gilroy';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0.04em;
+            color: #474748;
+            max-width: 552px;
+            margin-bottom: 0;
+            z-index: 6;
+        }
+    }
+    &-cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 65px;
+    }
+    &-card {
+        width: 288px;
+        height: 326px;
+        background: #FFFFFF;
+        box-shadow: 4px 23px 71px rgba(16, 26, 52, 0.12);
+        border-radius: 20px;
+        padding: 32px 25px 52px 32px;
+        z-index: 4;
+        transition: .5s all;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 4px 23px 71px rgba(16, 26, 52, 0.12);
+            transform: translateY(-20px);
+        }
+        &__img {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(284.26deg, #FF0000 -80.02%, #FF7A00 113.66%, #FFB300 156.83%);
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__title {
+            margin-top: 24px;
+            font-family: 'Gilroy';
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 30px;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #0A0A0B;
+        }
+        &__descr {
+            margin-top: 12px;
+            font-family: 'Gilroy';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0.04em;
+            color: #474748;
+            max-width: 201px;
+        }
+    }
+
+}

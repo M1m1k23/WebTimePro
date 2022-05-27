@@ -1,0 +1,54 @@
+@import 'libs/bootstrap-reboot.min';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'RF Dewi Expanded';
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    position: relative;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    width: 273px;
+    height: 54px;
+    background: #FF0000;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    z-index: 1;
+    &:hover {
+        color: #FFFFFF;
+    }
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    
+    
+}
+
+@import 'blocks/main';
+@import 'blocks/header';
+@import 'blocks/services';
+@import 'blocks/case';
+@import 'blocks/start';
+@import 'blocks/about';
+@import 'blocks/comment';
+@import 'blocks/discuss';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/cookies';
+@import 'blocks/menu';
+@import 'blocks/media';

@@ -1,0 +1,64 @@
+.cookies {
+    padding: 31px 0;
+    background: #0A0A0B;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 70;
+    &-close {
+        display: none;
+    }
+    &-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__obj {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__img {
+            background: linear-gradient(284.26deg, #FF0000 -80.02%, #FF7A00 113.66%, #FFB300 156.83%);
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__text {
+            margin-left: 26px;
+            font-family: 'Gilroy';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 26px;
+            color: #FFFFFF;
+            
+            a {
+                text-decoration: none;
+                font-family: 'Gilroy';
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 26px;
+                color: #FFFFFF;
+                transition: .5s;
+                
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        &__btn {
+            font-family: 'Gilroy';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #FFFFFF;
+            
+            &:hover {
+                color: #FFFFFF;
+            }
+        }
+    }
+}

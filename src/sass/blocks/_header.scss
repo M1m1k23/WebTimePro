@@ -1,0 +1,110 @@
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 28px 0 0 0;
+    z-index: 1;
+    
+    &-descr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        
+        &__item {
+            padding-right: 67px;
+            list-style-type: none;
+           
+            
+            a {
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                text-transform: uppercase;
+                text-decoration: none;
+                letter-spacing: 0.08em;
+                color: #0A0A0B;
+                transition: .3s all;
+                position: relative;
+                &:after {
+                    position: absolute;
+                    content: '';
+                    width: 0%;
+                    height: 2px;
+                    background-color: #0A0A0B;
+                    bottom: -2px;
+                    left: 50%;
+                    transition: all .5s ;
+                  }
+                  &:hover::after {
+                      width: 100%;
+                      left: 0;
+                  }
+                
+            }
+            
+        }
+    }
+    
+    &-phone {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #0A0A0B;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border: 1px solid #0A0A0B;
+        box-sizing: border-box;
+        border-radius: 8px;
+        top: 0;
+        width: 229px;
+        height: 52px;
+        overflow: hidden;
+        transition: color .6s ;
+        &:hover {
+            color: #fff;
+            
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -20px;
+            width: 0;
+            height: 100%;
+            background-color: #FF0000;
+            transform: skewX(35deg);
+            z-index: -1;
+            transition: width 1s;
+        }
+        &:hover::before {
+            width: 120%;
+        }
+    }
+    &-med {
+        display: none;
+    }
+    &-mob {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        visibility: hidden;
+        &__mobile {
+            display: none;
+        }
+    }
+    
+}   

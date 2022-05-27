@@ -1,0 +1,596 @@
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 32px;
+    }
+    .header {
+        &-list {
+            &__item {
+                padding-right: 40px;
+            }
+        }
+    }
+    .main {
+        background-position: 80% 0;
+    }
+    .services {
+        height: auto;
+        &-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 60px;
+        }
+        &-cards {
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 849px;
+            
+        }
+        &-card {
+            margin-bottom: 16px;
+            width: 342px;
+            height: 284px;
+            &__descr {
+                max-width: 283px;
+            }
+        }
+    }
+    .case {
+        &-cards {
+            justify-content: space-around;
+        }
+        &-card-2 {
+            margin-bottom: 50px;
+        }
+    }
+    .start {
+        &-wrap {
+            &__text {
+                padding-right: 20px;
+            }
+            &__phone {
+                padding-left: 20px;
+            }
+        }
+    }
+    .about {
+        height: auto;
+        &-wrap {
+            flex-direction: column;
+            &__client {
+                padding-top: 50px;
+            }
+            &__cards {
+                max-width: 770px;
+            }
+            &__card {
+                width: 345px;
+            }
+        }
+    }
+    .comment {
+        &-wrap {
+            flex-direction: column-reverse;
+            &__swiper {
+                max-width: 710px;
+            }
+            &__img {
+                padding-top: 60px;
+            }
+        }
+    }
+    .footer {
+        &-social {
+            display: none;
+            &-mob {
+                display: flex;
+                margin-top: 28px;
+            }
+
+        }
+        &-wrap {
+            &__info {
+                flex-direction: column;
+                max-width: 255px;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 992px) {
+    
+    .header {
+        &-list {
+            &__item {
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+        &-phone {
+            display: none;
+        }
+        &-med {
+            display: block;
+        }
+        &-mob {
+            position: relative;
+            visibility: visible;
+            &__mobile {
+                display: flex;
+            }
+        }
+    }
+    .main {
+        &__bg {
+            display: none;
+        }
+        &-title {
+            max-width: 554px;
+            font-size: 48px;
+            line-height: 60px;
+        }
+    }
+    .services {
+        &-text {
+            &__title {
+                font-size: 34px;
+                line-height: 44px;
+            }
+        }
+    }
+    .case {
+        &-text {
+            &__title {
+                font-size: 34px;
+                line-height: 44px;
+            }
+        }
+        &-cards {
+            margin-top: 50px;
+            justify-content: space-between;
+        }
+        &-card, &-card-2 {
+            width: 344px;
+        }
+    }
+    .start {
+        &-wrap {
+            height: auto;
+            flex-direction: column;
+            padding: 70px 0;
+            &__text {
+                border-right: none;
+                border-bottom: 1px solid #FFF;
+                padding-right: 0;
+                padding-bottom: 50px;
+            }
+            &__phone {
+                padding-top: 50px;
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        &__logo {
+            max-width: 130px;
+            img {
+                width: 100%;
+            }
+        }
+        &-list {
+            display: none;
+        }
+        &-mob {
+            margin-right: 67px;
+        }
+            
+        .hamburger {
+            position: absolute;
+            right: 16px;
+            top: 40px;
+            width: 35px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            span {
+                display: block;
+                height: 3.3px;
+                width: 100%;
+                background: #090808;
+                margin-bottom: 6.6px;
+            }
+            span.short {
+                width: 26px;
+            }
+        }
+        
+    }
+    .main {
+        height: 700px;
+        &-text {
+            padding-top: 150px;
+        }
+        &-title {
+            max-width: 554px;
+            font-size: 48px;
+            line-height: 60px;
+        }
+        &-successes {
+            margin-top: 40px;
+        }
+        &-success {
+            margin-right: 50px;
+            margin-bottom: 56px;
+            &__num {
+                font-size: 36px;
+                
+            }
+        }
+    }
+    .services {
+        &-card {
+            max-width: 342px;
+            width: 96%;
+        }
+    }
+    .case {
+        &-cards {
+            justify-content: center;
+            display: none;
+        }
+        &-mob {
+            display: block;
+            padding-top: 50px;
+        }
+    }
+    .about {
+        &-text {
+            &__title {
+                font-size: 34px;
+                line-height: 44px;
+                
+            }
+        }
+        &-wrap {
+            &__text {
+                padding-top: 50px;
+            }
+            &__cards {
+                justify-content: space-around;
+                max-width: 690px;
+            }
+            &__card {
+                max-width: 250px;
+            }
+        }
+    }
+    .comment {
+        &-text {
+            &__title {
+                font-size: 34px;
+                line-height: 44px;
+                max-width: 591px;
+            }
+        }
+        &-wrap {
+            &__img {
+                img {
+                    max-width: 100%;
+                }
+            }
+            &__swiper {
+                max-width: 500px;
+            }
+            &__nav {
+                justify-content: center;
+            }
+            &__scrollbar {
+                margin-left: 0;
+                width: 60%!important;
+                &::after {
+                    margin-left: 305px;
+                }
+            }
+            &__arrow {
+                display: none;
+            }
+        }
+        &-card {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .discuss {
+        &-text {
+            &__title {
+                font-size: 34px;
+                line-height: 44px;
+            }
+        }
+        &-form {
+            form {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                input {
+                    margin: 0;
+                    width: 343px;
+                    height: 54px;
+                    margin-bottom: 20px;
+                }
+                button {
+                    margin: 0;
+                    width: 343px;
+                    height: 54px;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+    .footer {
+        &-wrap {
+            &__btn {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 0px;
+    }
+    .header {
+        padding: 28px 0 0 10px;
+        &__logo {
+            max-width: 104px;
+            img {
+                width: 100%;
+            }
+        }
+        .hamburger {
+            top: 34px;
+        }
+    }
+    .main {
+        padding: 0 10px;
+        background-position: 65% 0;
+        &-text {
+            padding-top: 110px;
+        }
+        &-title {
+            max-width: 343px;
+            font-size: 28px;
+            line-height: 40px;
+        }
+        &-successes {
+            flex-wrap: wrap;
+            max-width: 308px;
+            margin-bottom: 60px;
+
+        }
+        &-success {
+            max-width: 127px;
+            margin-right: 22px;
+            margin-bottom: 20px;
+            &__num {
+                font-size: 32px;
+                
+            }
+            &__sub {
+                font-size: 14px;
+            }
+        }
+    }
+    .services {
+        padding: 100px 10px 0 10px;
+        &-text {
+            &__subtitle {
+                font-size: 14px;
+            }
+            &__title {
+            
+                font-size: 26px;
+                line-height: 34px;
+            }
+        }
+        &-card {
+            margin-bottom: 30px;
+        }
+        &-descr {
+            max-width: 343px;
+        }
+       
+    }
+    .case {
+        padding: 120px 10px 0 10px;
+        &-text {
+            &__subtitle {
+                font-size: 14px;
+            }
+            &__title {
+                font-size: 26px;
+                line-height: 34px;
+            } 
+        }
+        &-card, &-card-2 {
+            max-width: 300px;
+        }
+    }
+    .start {
+        &-wrap {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            &__title {
+                font-size: 22px;
+                line-height: 30px;
+                max-width: 285px;
+            }
+            &__icon {
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+            &__num {
+                font-size: 22px;
+                line-height: 32px;
+            }
+
+        }
+    }
+    .about {
+        padding: 120px 10px 0 10px;
+        &-text {
+            &__subtitle {
+                font-size: 14px;
+                line-height: 20px;
+            }
+            &__title {
+                font-size: 26px;
+                line-height: 34px;
+            }
+        }
+        &-wrap {
+            &__text {
+                padding-top: 40px;
+                p {
+                    max-width: 343px;
+                }
+            }
+            &__cards {
+                max-width: 345px;
+            }
+            &__card {
+                max-width: 162px;
+                img {
+                    max-width: 118px;
+                }
+            }
+        }
+    }
+    .comment {
+        &-text {
+            &__subtitle {
+                font-size: 14px;
+                line-height: 20px;
+            }
+            &__title {
+                font-size: 26px;
+                line-height: 34px;
+                max-width: 340px;
+            }
+        }
+        &-wrap {
+            &__swiper {
+                max-width: 312px;
+            }
+            &__scrollbar {
+                &::after {
+                    margin-left: 195px;
+                }
+            }
+        }
+        
+    }
+    .discuss {
+        padding: 80px 10px 91px 10px;
+        &-text {
+            &__title {
+                font-size: 26px;
+                line-height: 34px;
+                max-width: 343px;
+            }
+            &__sub {
+                max-width: 343px;
+            }
+        }
+        &-form {
+            form {
+                input {
+                    width: 300px;
+                }
+                button {
+                    width: 300px;
+                }
+            }
+        }
+    }
+    .footer {
+        padding: 0 10px;
+        &-wrap {
+            &__logo {
+                display: flex;
+                flex-direction: row;
+                a {
+                    img {
+                        max-width: 100%;
+                    }
+                }
+            }
+            &__info {
+                margin-top: 30px;
+            }
+
+        }
+        &-social {
+            &-mob {
+                margin-left: 40px;
+                transform: translateY(-10px);
+            }
+        }
+    }
+    .modal {
+        width: 355px;
+        height: auto;
+        padding: 11px 17px 61px 16px;
+        &__subtitle {
+            font-size: 14px;
+        }
+        form {
+            input {
+                width: 300px;
+            }
+            label {
+                span {
+                    font-size: 14px;
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+            button {
+                width: 300px;
+            }
+        }
+    }
+    .cookies {
+        padding: 31px 10px;
+        &-wrap {
+            &__img {
+                display: none;
+            }
+            &__text {
+                font-size: 14px;
+                line-height: 24px;
+                margin-left: 0;
+                max-width: 368px;
+                a {
+                    font-size: 16px;
+                }
+            }
+            &__btn {
+                font-size: 14px;
+            }
+        }
+    }
+    
+}
